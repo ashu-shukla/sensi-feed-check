@@ -7,7 +7,7 @@ import nsefetch as ns
 
 today = datetime.today().strftime('%d-%b-%Y')  # DD-MMM-YYYY
 
-discord = 'https://discord.com/api/webhooks/878985323009425468/1kUcjWjnB5UJTbMaUV_Pfmt_lSACqagVwq37GhwzJXJWMEFAIDWvjz5uWhzrkS-iCQBq'
+discord = 'DISCORD_URL'
 feed_url = 'https://feeds.feedburner.com/nseindia/FODailyReport'
 fii_dii_url = 'https://www.nseindia.com/api/fiidiiTradeReact'
 

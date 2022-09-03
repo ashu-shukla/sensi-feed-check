@@ -8,7 +8,7 @@ feed_url = 'https://feeds.feedburner.com/nseindia/FODailyReport'
 
 
 def send_message(msg):
-    discord = 'https://discord.com/api/webhooks/878985323009425468/1kUcjWjnB5UJTbMaUV_Pfmt_lSACqagVwq37GhwzJXJWMEFAIDWvjz5uWhzrkS-iCQBq'
+    discord = 'Discord url'
     requests.post(discord, data={"content": f"{msg}"})
 
 #  Reset master.json

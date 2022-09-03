@@ -5,7 +5,7 @@ import nsefetch as ns
 
 nse_status = 'https://www.nseindia.com/api/marketStatus'
 today = datetime.today().strftime('%d-%b-%Y')  # DD-MMM-YYYY
-discord = 'https://discord.com/api/webhooks/878985323009425468/1kUcjWjnB5UJTbMaUV_Pfmt_lSACqagVwq37GhwzJXJWMEFAIDWvjz5uWhzrkS-iCQBq'
+discord = 'Discord_url'
 
 f = open('recent.json')
 data = json.load(f)

@@ -3,7 +3,7 @@ import pymongo
 
 from update_master import update_master
 client = pymongo.MongoClient(
-    "mongodb+srv://ashu:sensibullsucks@sensicluster.ipufh.mongodb.net/?retryWrites=true&w=majority")
+    "MongoURL")
 
 # today = date.today()-timedelta(days=1)
 today = date.today()
